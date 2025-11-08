@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Santosh Gautam — Video Editor | ContentRider Studio</title>
+  <meta name="description" content="Santosh Gautam — Video Editor & Founder of ContentRider. Portfolio, skills, experience and contact." />
+  <style>
+    :root{
+      --bg:#0f1723; --card:#0b1220; --accent:#ff8c2b; --muted:#98a0b3; --white:#eef2f7;
+      --glass: rgba(255,255,255,0.03);
+      --maxw:1000px;
+      --radius:14px;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; background:linear-gradient(180deg,#071026 0%, #071524 100%); color:var(--white);
+      -webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;
+      display:flex; align-items:center; justify-content:center; padding:30px 16px;
+    }
+    .wrap{width:100%;max-width:var(--maxw); background:linear-gradient(180deg, rgba(255,255,255,0.02), var(--glass));
+      border-radius:var(--radius); padding:28px; box-shadow: 0 10px 30px rgba(2,6,23,0.6); display:grid; grid-template-columns: 1fr 340px; gap:22px;}
+    header.site-brand{grid-column:1/-1; display:flex; align-items:center; gap:16px; margin-bottom:6px}
+    .avatar{
+      width:84px;height:84px;border-radius:12px;background:linear-gradient(135deg,#0b1220,#08131d);
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--accent); font-size:18px;
+      flex-shrink:0; border:1px solid rgba(255,255,255,0.03)
+    }
+    .title h1{margin:0;font-size:20px;letter-spacing:0.2px}
+    .title p{margin:4px 0 0; color:var(--muted); font-size:13px}
+    .main{
+      padding:10px 6px 6px; border-radius:10px; background:rgba(255,255,255,0.01);
+      border:1px solid rgba(255,255,255,0.02);
+      min-height:300px;
+    }
+    h2{margin:0 0 12px; font-size:16px; color:var(--accent)}
+    .section{margin-bottom:18px}
+    .muted{color:var(--muted); font-size:14px}
+    .skills{display:flex;flex-wrap:wrap;gap:8px}
+    .chip{background:rgba(255,255,255,0.03);padding:8px 10px;border-radius:8px;font-size:13px;color:var(--white);border:1px solid rgba(255,255,255,0.02)}
+    .right{
+      padding:18px; border-radius:10px; background:linear-gradient(0deg, rgba(255,255,255,0.01), rgba(255,255,255,0.02));
+      border:1px solid rgba(255,255,255,0.02); min-height:300px;
+    }
+    .contact-row{display:flex;gap:10px;align-items:center;margin-bottom:12px}
+    a.link{color:var(--accent); text-decoration:none; font-weight:600}
+    .cta{display:inline-block;background:var(--accent);color:#071622;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:700;margin-top:10px}
+    footer{grid-column:1/-1;margin-top:6px;color:var(--muted);font-size:13px;text-align:center}
+    /* responsive */
+    @media (max-width:900px){
+      .wrap{grid-template-columns:1fr; padding:18px}
+      .right{order:2}
+      .main{order:1}
+    }
+    /* small print */
+    .meta{font-size:13px;color:var(--muted);margin-bottom:6px}
+    .project{background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0.02)); padding:12px;border-radius:8px;margin-bottom:10px;border:1px solid rgba(255,255,255,0.02)}
+    .project h3{margin:0;font-size:14px}
+    .project p{margin:6px 0 0;color:var(--muted);font-size:13px}
+  </style>
+</head>
+<body>
+  <main class="wrap" role="main" aria-labelledby="name">
+    <header class="site-brand">
+      <div class="avatar">SG</div>
+      <div class="title">
+        <h1 id="name">Santosh Gautam</h1>
+        <p class="muted">Video Editor • Founder, ContentRider Studio — Pune, Maharashtra</p>
+      </div>
+    </header>
+
+    <!-- left / main content -->
+    <section class="main" aria-label="Profile and experience">
+      <div class="section">
+        <h2>Profile Summary</h2>
+        <p class="muted">Creative and passionate video editor skilled in crafting engaging videos for YouTube, ads, and social media. Experienced in understanding client needs, adding cinematic effects, and delivering professional-quality edits under tight deadlines. Focused on creativity, storytelling, and client satisfaction.</p>
+      </div>
+
+      <div class="section">
+        <h2>Core Skills</h2>
+        <div class="skills" aria-hidden="false">
+          <span class="chip">Video Editing (Premiere, CapCut, After Effects)</span>
+          <span class="chip">YouTube & Short-Form Content</span>
+          <span class="chip">Color Grading & SFX</span>
+          <span class="chip">Ad Video Editing</span>
+          <span class="chip">Fast Turnaround</span>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Work Experience</h2>
+        <div class="project" id="exp1">
+          <h3>Freelance Video Editor — ContentRider Studio (2023 – Present)</h3>
+          <p class="muted">Edited YouTube intros, ad reels, and cinematic vlogs for multiple clients. Delivered projects based on client feedback with creative visual and sound design. Managed editing workflows and ensured timely delivery.</p>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Education</h2>
+        <p class="muted">Pursuing Commerce Stream — Maharashtra Board (Class 12, 2025)</p>
+      </div>
+
+      <div class="section">
+        <h2>Projects & Highlights</h2>
+        <div class="project">
+          <h3>Cinematic Travel & Documentary Edits</h3>
+          <p class="muted">Created cinematic travel videos and short storytelling edits for social media. Designed thumbnails that significantly improved CTR for creators.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- right / contact & actions -->
+    <aside class="right" aria-label="Contact and portfolio">
+      <div class="meta">Contact</div>
+      <div class="contact-row">
+        <div>
+          <div class="muted">Email</div>
+          <div><a class="link" href="mailto:santosh.gautamoffice@gmail.com">santosh.gautamoffice@gmail.com</a></div>
+        </div>
+      </div>
+
+      <div class="contact-row">
+        <div>
+          <div class="muted">Phone</div>
+          <div><a class="link" href="tel:+918421686711">+91 8421686711</a></div>
+        </div>
+      </div>
+
+      <div class="contact-row">
+        <div>
+          <div class="muted">Portfolio</div>
+          <div><a class="link" href="https://santoshgautam.odoo.com/" target="_blank" rel="noopener">santoshgautam.odoo.com</a></div>
+        </div>
+      </div>
+
+      <div style="margin-top:12px">
+        <a class="cta" href="mailto:santosh.gautamoffice@gmail.com?subject=Video%20Project%20Inquiry">Contact Me</a>
+      </div>
+
+      <div style="margin-top:18px">
+        <h2>Quick Facts</h2>
+        <p class="muted">• 100+ videos edited • Strong storytelling skills • Thumbnail & ad video specialist</p>
+      </div>
+    </aside>
+
+    <footer>
+      © 2025 Santosh Gautam — ContentRider Studio • Portfolio: <a class="link" href="https://santoshgautam.odoo.com/" target="_blank" rel="noopener">santoshgautam.odoo.com</a>
+    </footer>
+  </main>
+
+  <!-- small script to auto scroll to contact if url has #contact -->
+  <script>
+    if(window.location.hash === "#contact"){
+      document.querySelector(".right").scrollIntoView({behavior:"smooth"});
+    }
+  </script>
+</body>
+</html>
